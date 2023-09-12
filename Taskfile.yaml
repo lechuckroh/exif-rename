@@ -1,0 +1,14 @@
+version: 3
+
+tasks:
+  build:
+    cmds:
+      - cargo build --release
+
+  run:
+    cmds:
+      - cargo run -q -- --help
+
+  test:
+    cmds:
+      - cargo test
